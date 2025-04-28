@@ -23,10 +23,6 @@ h2 {
   transition: transform 0.2s;
 }
 
-/* .product-item:hover {
-  transform: scale(1.03);
-} */
-
 .product-item img {
   width: 50%;
   height: auto;
