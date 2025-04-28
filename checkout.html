@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - E-commerce</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- CSS umum wrapper -->
+    <link rel="stylesheet" href="css/checkout.css" />
+    <!-- CSS khusus checkout -->
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Checkout</h2>
+      <form action="payment_success.html" method="POST" class="checkout-form">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" required />
+
+        <label for="alamat">Alamat Pengiriman</label>
+        <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+        <label for="metode">Metode Pembayaran</label>
+        <select id="metode" name="metode" required>
+          <option value="">--Pilih Metode--</option>
+          <option value="transfer">Transfer Bank</option>
+          <option value="cod">Bayar di Tempat (COD)</option>
+          <option value="ewallet">E-Wallet</option>
+        </select>
+
+        <button type="submit" class="btn-submit">Bayar Sekarang</button>
+      </form>
+    </div>
+  </body>
+</html>
