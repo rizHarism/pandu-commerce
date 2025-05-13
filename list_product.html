@@ -4,54 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daftar Produk - E-commerce</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- CSS umum (wrapper) -->
-    <link rel="stylesheet" href="css/list_product.css" />
-    <!-- CSS khusus halaman list produk -->
   </head>
-  <body>
-    <div class="wrapper">
-      <a href="login.html" class="btn-back">← Log Out</a>
-      <h2 class="page-title">Silahkan Pilih Kebutuhan Jaringan Anda</h2>
-      <div class="product-list">
-        <div class="product-item">
-          <img src="image/dlink_5_port.jpg" alt="Produk 1" />
-          <h3>D-Link Switch 5 Port</h3>
-          <p>Rp 699.000</p>
-          <a href="product/dlink_swicth.html" class="btn">Lihat Detail</a>
+  <body class="bg-light">
+    <div class="container my-5 p-5 bg-white">
+      <a href="login.html" class="btn btn-outline-secondary mb-3">← Log Out</a>
+      <a href="profile/profile.html" class="btn btn-success mb-3">Profil Saya</a>
+      <h2 class="text-center mb-4">Silahkan Pilih Kebutuhan Jaringan Anda</h2>
+
+      <div class="row p-4">
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/dlink_5_port.jpg" class="card-img-top" alt="Produk 1" />
+            <div class="card-body">
+              <h5 class="card-title">D-Link Switch 5 Port</h5>
+              <p class="card-text">Rp 699.000</p>
+              <a href="product/dlink_swicth.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
         </div>
-        <div class="product-item">
-          <img src="image/belden.png" alt="Produk 2" />
-          <h3>Cable Lan Belden Cat 5e</h3>
-          <p>Rp 1.800.000</p>
-          <a href="product/belden_cable.html" class="btn">Lihat Detail</a>
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/belden.png" class="card-img-top" alt="Produk 2" />
+            <div class="card-body">
+              <h5 class="card-title">Cable Lan Belden Cat 5e</h5>
+              <p class="card-text">Rp 1.800.000</p>
+              <a href="product/belden_cable.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
         </div>
-        <div class="product-item">
-          <img src="image/tplink_router.jpg" alt="Produk 3" />
-          <h3>Tp-link Router AC1900 Wireless</h3>
-          <p>Rp 539.000</p>
-          <a href="product/tplink_router.html" class="btn">Lihat Detail</a>
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/tplink_router.jpg" class="card-img-top" alt="Produk 3" />
+            <div class="card-body">
+              <h5 class="card-title">Tp-link AC1900</h5>
+              <p class="card-text">Rp 539.000</p>
+              <a href="product/tplink_router.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/belden_connector.jpg" class="card-img-top" alt="Produk 4" />
+            <div class="card-body">
+              <h5 class="card-title">Konektor RJ45 Belden</h5>
+              <p class="card-text">Rp 340.000</p>
+              <a href="product/belden_connector.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
         </div>
 
-        <div class="product-item">
-          <img src="image/belden_connector.jpg" alt="Produk 1" />
-          <h3>Konektor RJ45 Belden</h3>
-          <p>Rp 340.000</p>
-          <a href="product/belden_connector.html" class="btn">Lihat Detail</a>
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/ugreen_crimping.jpg" class="card-img-top" alt="Produk 5" />
+            <div class="card-body">
+              <h5 class="card-title">Ugreen Crimping Tool</h5>
+              <p class="card-text">Rp 180.000</p>
+              <a href="product/ugreen_crimping.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
         </div>
-        <div class="product-item">
-          <img src="image/ugreen_crimping.jpg" alt="Produk 5" />
-          <h3>Ugreen Crimping</h3>
-          <p>Rp 180.000</p>
-          <a href="product/ugreen_crimping.html" class="btn">Lihat Detail</a>
-        </div>
-        <div class="product-item">
-          <img src="image/cable_tester.jpg" alt="Produk 6" />
-          <h3>Ugreen Cable Tester</h3>
-          <p>Rp 171.000</p>
-          <a href="product/ugreen_tester.html" class="btn">Lihat Detail</a>
+
+        <div class="col-md-4">
+          <div class="card text-center p-5">
+            <img src="image/cable_tester.jpg" class="card-img-top" alt="Produk 6" />
+            <div class="card-body">
+              <h5 class="card-title">Ugreen Cable Tester</h5>
+              <p class="card-text">Rp 171.000</p>
+              <a href="product/ugreen_tester.html" class="btn btn-success">Lihat Detail</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.js"></script>
   </body>
 </html>

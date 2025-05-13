@@ -4,29 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Produk - E-commerce</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="../css/bootstrap/bootstrap.css" rel="stylesheet" />
+    <!-- Global Wrapper CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/detail_product.css" />
   </head>
   <body>
     <div class="wrapper">
-      <a href="../list_product.html" class="btn-back">← Kembali ke List Product</a>
-      <h2 class="page-title">Detail Product</h2>
-      <div class="product-detail">
-        <div class="product-image">
-          <img src="../image/tplink_router.jpg" alt="Produk Detail" />
+      <a href="../list_product.html" class="btn btn-outline-secondary mb-3">← Kembali ke List Produk</a>
+      <div class="row">
+        <div class="col-md-5">
+          <img src="../image/tplink_router.jpg" alt="Tp-link Router AC1900" class="img-fluid rounded" />
         </div>
-        <div class="product-info">
-          <h2>Tp-link Router AC1900 Wireless</h2>
-          <p class="price">Rp 539.000</p>
-          <p class="description">
-            802.11ac Wave2 Wi-Fi – 1300 Mbps on the 5 GHz band and 600 Mbps on the 2.4 GHz band. 3×3 MIMO Technology – Transmitting and receiving data on three streams to pair flawlessly with your 3×3 clients. Boosted Wi-Fi Coverage –
-            Beamforming technology delivers a highly efficient wireless connection. MU-MIMO – To help your devices achieve optimal performance by making communication more efficient. Personalised Management – Advanced features like Parental
-            Controls, Guest Network, and Access Control provide individualised tools for network management. Whole-Home Coverage with OneMeshTM – Works alongside TP-Link OneMeshTM products to create a flexible Mesh network Intelligent
-            Connection – Smart Connect directs clients to the less congested band and Airtime Fairness optimizes the time usage.
-          </p>
-          <a href="../checkout.html" class="btn-buy">Beli</a>
+        <div class="col-md-7">
+          <h3 class="mt-3 mt-md-0">Tp-link Router AC1900 Wireless</h3>
+          <p class="text-success fs-5 fw-bold">Rp 539.000</p>
+
+          <table class="table table-sm">
+            <tbody>
+              <tr>
+                <th>Standar Wi-Fi</th>
+                <td>802.11ac Wave2</td>
+              </tr>
+              <tr>
+                <th>Kecepatan</th>
+                <td>1300 Mbps (5 GHz), 600 Mbps (2.4 GHz)</td>
+              </tr>
+              <tr>
+                <th>Teknologi Antena</th>
+                <td>3×3 MIMO</td>
+              </tr>
+              <tr>
+                <th>Jangkauan</th>
+                <td>Beamforming – koneksi nirkabel efisien</td>
+              </tr>
+              <tr>
+                <th>MU-MIMO</th>
+                <td>Performa optimal untuk banyak perangkat</td>
+              </tr>
+              <tr>
+                <th>Manajemen</th>
+                <td>Parental Controls, Guest Network, Access Control</td>
+              </tr>
+              <tr>
+                <th>Mesh Network</th>
+                <td>Dukungan OneMesh™ dari TP-Link</td>
+              </tr>
+              <tr>
+                <th>Koneksi Cerdas</th>
+                <td>Smart Connect & Airtime Fairness</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a href="../checkout.html" class="btn btn-success mt-3">Beli</a>
         </div>
       </div>
     </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="../js/bootstrap/bootstrap.js"></script>
   </body>
 </html>
